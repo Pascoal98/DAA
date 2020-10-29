@@ -44,6 +44,5 @@ int main(int argc, char const *argv[]){
             printf("%c %d\n",abc[i].letra,abc[i].frequencia);
         }
     }
-    
     return 0;
 }
