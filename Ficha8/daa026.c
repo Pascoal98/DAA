@@ -10,8 +10,6 @@ int cols;           //Numero de colunas
 char adj[MAX][MAX];       // Matriz de adjacencias
 bool visited[MAX][MAX];   // Que nos ja foram visitados?
 
-
-
 int dfs(int r, int c) {
     //printf("dfs(%d,%d)\n",r,c);
     if(r < 0 || r >= rows || c < 0 || c >= cols) return 0;
