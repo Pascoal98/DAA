@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define MAX 25      // Maximo numero de nos
+#define MAX 101      // Maximo numero de nos
 
 int n;              // Numero de nos do grafo
 bool adj[MAX][MAX]; // Matriz de adjacencias
